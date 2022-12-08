@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-height: 100vh;
+    width: 100vw;
+    background: #1F2937;;
+}
+
+main {
+    background: #6943FF;
+    min-height: 40vh;
+    width: 100%;
+}
+
+h1 {
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 33px;
+    margin-bottom: 30px;
+}
+
+#input-val {
+    height: 83px;
+    width: fit-content;
+    width: 117px;
+    margin: auto;
+    text-align: center;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    background: #6943FF;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-size: 58px;
+    margin-bottom: 26.57px;
+    outline: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+  }
+
+.input-field {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field button {
+    height: 42px;
+    width: 117px;
+    border: none;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    background: #FFFFFF;
+    margin: 10px auto 30px auto;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3D3D3D;
+
+}
+
+section {
+    margin-bottom: 23px;
+    width: 85vw;
+    margin: 0 auto 20px auto;
+    min-height: 108px;
+    background: #273549;
+}
+
+section p {
+    padding-top: 31px;
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #CCC1FF;
+}
+
+.meter {
+    margin-top: 30px;
+}
+
+#result-length, #result-volume, #result-mass {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 18px;
+    color : white;
+    padding-bottom: 5px;
+}
+
+@media(min-width: 800px){
+    section {
+        width: 60vw;
+    }
+}
